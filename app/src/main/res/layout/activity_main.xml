@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.gingysfactory.MainActivity">
+
+
+
+    <ViewFlipper
+        android:id="@+id/viewFlipper1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center" >
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Gingym's Factory"
+        android:background="@drawable/gingym"
+        android:fontFamily="AmaticSC-Bold.ttf"
+        android:textColor="#FFF8E1"
+        android:textSize="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp" />
+
+
+    <TextView
+        android:background="@drawable/gingyms"
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Taste Gingym's magic on Chodakowska Street, no.6"
+        android:fontFamily="AmaticSC-Bold.ttf"
+        android:textColor="#FFF8E1"
+        android:textSize="20dp"
+         />
+
+    <TextView
+        android:background="@drawable/gingym"
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Gingym_m"
+        android:fontFamily="AmaticSC-Bold.ttf"
+        android:textColor="#FFF8E1"
+        android:textSize="20dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Gingym_num"
+        android:fontFamily="AmaticSC-Bold.ttf"
+        android:textColor="#FFF8E1"
+        android:textSize="20dp"
+        android:layout_below="@id/text3"
+
+        android:layout_margin="65dp" />
+</ViewFlipper>
+</RelativeLayout>
